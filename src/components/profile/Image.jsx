@@ -1,15 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function Image(props) {
+function Image({src}) {
   var ImageStyles = {
-    height: '5%',
-    width: '5%'
+    position: 'absolute',
+    left: '20',
+    top: '165',
+    height: '50',
+    width: '50',
+    border: '2px solid white',
+    borderRadius: '15',
+    backgroundColor: 'white'
   }
+
     return(
-    <div style={ImageStyles}>
-      <img alt="logo" src={props.src}/>
-    </div>
+      <img style={ImageStyles} alt="logo" src={src}/>
    );
 }
 

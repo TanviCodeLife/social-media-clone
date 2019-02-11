@@ -4,8 +4,11 @@ import About from "./About";
 import Self from "./profile/Self";
 
 function App(){
+  var AppStyles = {
+  fontFamily: 'Arial'
+  }
     return (
-        <div>
+        <div style={AppStyles}>
             <Header/>
             <Self/>
             <About/>

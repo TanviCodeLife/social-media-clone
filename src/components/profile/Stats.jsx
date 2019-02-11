@@ -2,9 +2,16 @@ import React from "react";
 
 
 function Stats(){
+  var  StatsStyles = {
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    letterSpacing: '1'
+  }
   return(
-    <div>
-    <p>Lorem Ipsum</p>
+    <div style={StatsStyles}>
+      <p>TWEETS</p>
+      <p>FOLLOWING</p>
+      <p>FOLLOWERS</p>
     </div>
   );
 
