@@ -5,7 +5,7 @@ function Stats(){
   var  StatsStyles = {
     display: 'flex',
     justifyContent: 'space-evenly',
-    letterSpacing: '1'
+    letterSpacing: '1px'
   }
   return(
     <div style={StatsStyles}>

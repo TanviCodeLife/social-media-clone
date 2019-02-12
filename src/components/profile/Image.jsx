@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 
 function Image({src}) {
   var ImageStyles = {
-    position: 'absolute',
-    left: '20',
-    top: '165',
-    height: '50',
-    width: '50',
+    position: 'relative',
+    top: '-25px',
+    left: '20px',
+    height: '50px',
+    width: '50px',
     border: '2px solid white',
-    borderRadius: '15',
+    borderRadius: '15px',
     backgroundColor: 'white'
   }
 

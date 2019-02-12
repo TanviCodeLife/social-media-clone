@@ -2,9 +2,6 @@ import React from 'react';
 
 function About(){
   var AboutStyles = {
-  flexDirection: 'column',
-  justifyContent: 'flex-start',
-  marginRight: '50%',
   marginTop: '5%',
   textAlign: 'justify',
   backgroundColor: '#ecf0f1',

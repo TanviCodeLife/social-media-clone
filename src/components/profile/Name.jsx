@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 function Name({name}){
   var NameStyles = {
     textAlign: 'right',
-    marginRight: '10',
+    marginRight: '10px',
     font: 'bold',
-    letterSpacing: '1',
+    letterSpacing: '1px'
   }
     return(
       <div style={NameStyles}>
@@ -16,7 +16,7 @@ function Name({name}){
 }
 
 Name.propTypes = {
-    src: PropTypes.string.isRequired
+    name: PropTypes.string.isRequired
 };
 
 export default Name;

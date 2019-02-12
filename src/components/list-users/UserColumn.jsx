@@ -1,7 +1,7 @@
 import React from "react";
 
-function Box({src}) {
-  var BoxStyles = {
+function BoxUsers({src}) {
+  var BoxUsersStyles = {
     backgroundColor: '#3494d8',
     height: '60px',
     width: '100%',

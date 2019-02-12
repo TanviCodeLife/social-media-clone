@@ -1,17 +1,26 @@
 import React from "react";
 import Header from "./header/Header";
-import About from "./About";
 import Self from "./profile/Self";
+import UserList from "./list-users/UserList";
 
 function App(){
   var AppStyles = {
-  fontFamily: 'Arial'
+  fontFamily: 'Arial',
+  }
+
+  var FlexStyles = {
+    fontFamily: 'Arial',
+    display: 'flex',
+    flexDirection: 'row',
+    marginRight: '40%'
   }
     return (
         <div style={AppStyles}>
             <Header/>
-            <Self/>
-            <About/>
+            <div style={FlexStyles}>
+              <Self/>
+              <UserList/>
+            </div>
         </div>
     );
 }
